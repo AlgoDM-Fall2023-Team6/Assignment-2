@@ -1,0 +1,12 @@
+streamlit
+
+pandas==1.4.4
+numpy==1.23.1
+matplotlib==3.8.0
+plotly==5.17.0
+
+python-dotenv==0.21.0
+sqlalchemy==1.4.41
+snowflake-sqlalchemy==1.4.3
+
+altair==4.2.0
