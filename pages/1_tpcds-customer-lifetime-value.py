@@ -13,6 +13,13 @@ st.write(
 
 # Streamlit interface
 #st.title("Customer Sales Prediction")
+import streamlit as st
+import pandas as pd
+from snowflake.connector import connect
+from snowflake.ml.modeling.preprocessing import OneHotEncoder
+
+# Streamlit interface
+st.title("Customer Sales Prediction")
 
 # Input fields
 gender = st.selectbox("Gender", ["M", "F"])
