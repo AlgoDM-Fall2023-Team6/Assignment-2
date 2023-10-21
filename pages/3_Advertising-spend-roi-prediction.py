@@ -66,7 +66,7 @@ for channel, default, col in zip(channels, df_last_months_allocations["BUDGET"].
 # Function to call "predict_roi" UDF that uses the pre-trained model for inference
 # Note: Both the model training and UDF registration is done in Snowpark_For_Python.ipynb
 st.header("Predicted revenue")
-@st.cache_data(show_spinner=False)
+@st.cache(suppress_st_warning=True)
 def predict(budgets):
     df_predicted_roi = session.sql(f"SELECT predict_roi(array_construct({budgets[0]*1000},{budgets[1]*1000},{budgets[2]*1000},{budgets[3]*1000})) as PREDICTED_ROI").to_pandas()
     predicted_roi, last_month_roi = df_predicted_roi["PREDICTED_ROI"].values[0] / 100000, df_last_six_months_roi["ROI"].iloc[-1]
