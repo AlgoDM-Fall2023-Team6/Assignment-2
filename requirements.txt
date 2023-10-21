@@ -19,5 +19,5 @@ numpy==1.23.5
 streamlit==0.84.0
 
 snowflake-connector-python
-snowflake-ml
+snowflake-ml==1.0.0
 
