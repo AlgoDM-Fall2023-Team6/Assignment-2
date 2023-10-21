@@ -1,12 +1,13 @@
-streamlit
+
+
+
 
 
 matplotlib==3.8.0
 plotly==5.17.0
 
 
-sqlalchemy==1.4.41
-snowflake-sqlalchemy==1.4.3
+
 
 altair==4.2.0
 pandas==1.5.3
@@ -14,6 +15,9 @@ numpy==1.23.5
 
 
 
-snowflake-snowpark-python
 
-snowflake_ml_python
+streamlit==0.84.0
+
+snowflake-connector-python==2.6.3
+snowflake-ml==1.0.0
+
