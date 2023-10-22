@@ -1,4 +1,4 @@
-# Assignment2  ❤️
+# Assignment2
 ## Welcome to the multipage app!
 ### The setup
   * Create a conda environment using the provided environment.yml file.
