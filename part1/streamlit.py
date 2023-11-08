@@ -22,9 +22,9 @@ from snowflake.sqlalchemy import URL
 
 
 engine = create_engine(URL(
-    account = 'halyzvi-ocb50620',
+    account = 'qjkryhh-cu10455',
     user = 'PRANEETH',
-    password = 'Praneeth@1976',
+    password = 'Praneeth12345',
     database = 'AD_FORECAST_DEMO',
     schema = 'DEMO',
     warehouse = 'AD_FORECAST_DEMO_WH',
