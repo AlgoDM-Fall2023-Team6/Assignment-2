@@ -195,3 +195,4 @@ xgboost==1.7.3
 yarl==1.9.2
 zipp==3.17.0
 plotly-express
+SQLAlchemy
