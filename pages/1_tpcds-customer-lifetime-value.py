@@ -61,12 +61,12 @@ if st.button("Predict"):
 
     # Connect to Snowflake
     connection = connect(
-        user='zevil',
-        password='17Ch10012',
-        account='ehsmieh-rzb22769',
-        warehouse='FE_AND_INFERENCE_WH',
-        database='tpcds_xgboost',
-        schema='demo'
+        user = 'PRANEETH',
+        password='Praneeth12345',
+        account='qjkryhh-cu10455',
+        warehouse='AD_FORECAST_DEMO_WH',
+        database='TPCDS_XGBOOST',
+        schema='DEMO'
     )
 
     # Call Snowflake UDF

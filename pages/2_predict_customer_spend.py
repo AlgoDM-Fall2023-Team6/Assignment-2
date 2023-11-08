@@ -4,12 +4,12 @@ from snowflake.snowpark.session import Session
 from snowflake.snowpark.functions import *
 import json
 
-st.set_page_config(page_title="Predicting Customer Speed", page_icon="📈")
+st.set_page_config(page_title="Predicting Customer Spend", page_icon="📈")
 
-st.markdown("# Predicting speed")
-st.sidebar.header("Predicting speed")
+st.markdown("# Predicting spend")
+st.sidebar.header("Predicting spend")
 st.write(
-    """Predicting Customer Speed"""
+    """Predicting Customer Spend"""
 )
 # %%
 # Create a session to Snowflake with credentials
